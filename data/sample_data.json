@@ -1,0 +1,428 @@
+{
+  "timelineObjects": [
+    {
+      "activitySegment": {
+        "startLocation": {
+          "latitudeE7": 399348577,
+          "longitudeE7": -751626175,
+          "sourceInfo": {
+            "deviceTag": -638744513
+          }
+        },
+        "endLocation": {
+          "latitudeE7": 399448300,
+          "longitudeE7": -751650789,
+          "sourceInfo": {
+            "deviceTag": -638744513
+          }
+        },
+        "duration": {
+          "startTimestamp": "2023-01-01T14:53:14.098Z",
+          "endTimestamp": "2023-01-01T15:16:51.708Z"
+        },
+        "distance": 1440,
+        "activityType": "WALKING",
+        "confidence": "HIGH",
+        "activities": [
+          {
+            "activityType": "WALKING",
+            "probability": 92.57316589355469
+          },
+          {
+            "activityType": "IN_PASSENGER_VEHICLE",
+            "probability": 4.231012612581253
+          },
+          {
+            "activityType": "CYCLING",
+            "probability": 1.0722503066062927
+          },
+          {
+            "activityType": "IN_BUS",
+            "probability": 0.6083515007048845
+          },
+          {
+            "activityType": "STILL",
+            "probability": 0.6029420532286167
+          },
+          {
+            "activityType": "MOTORCYCLING",
+            "probability": 0.38715130649507046
+          },
+          {
+            "activityType": "RUNNING",
+            "probability": 0.321511528454721
+          },
+          {
+            "activityType": "IN_TRAIN",
+            "probability": 0.06276583299040794
+          },
+          {
+            "activityType": "IN_SUBWAY",
+            "probability": 0.05325085949152708
+          },
+          {
+            "activityType": "IN_FERRY",
+            "probability": 0.04074064490851015
+          },
+          {
+            "activityType": "IN_TRAM",
+            "probability": 0.03158343315590173
+          },
+          {
+            "activityType": "SKIING",
+            "probability": 0.011106981401098892
+          },
+          {
+            "activityType": "SAILING",
+            "probability": 0.003041194395336788
+          },
+          {
+            "activityType": "FLYING",
+            "probability": 0.0011153433661093004
+          },
+          {
+            "activityType": "IN_VEHICLE",
+            "probability": 3.5022097222281445e-6
+          }
+        ],
+        "waypointPath": {
+          "waypoints": [
+            {
+              "latE7": 399348754,
+              "lngE7": -751626129
+            },
+            {
+              "latE7": 399359130,
+              "lngE7": -751673507
+            },
+            {
+              "latE7": 399390907,
+              "lngE7": -751666870
+            },
+            {
+              "latE7": 399400901,
+              "lngE7": -751662826
+            },
+            {
+              "latE7": 399399986,
+              "lngE7": -751659927
+            },
+            {
+              "latE7": 399405937,
+              "lngE7": -751660156
+            },
+            {
+              "latE7": 399448318,
+              "lngE7": -751650924
+            }
+          ],
+          "source": "INFERRED",
+          "roadSegment": [
+            {
+              "placeId": "ChIJf8KfdhnGxokR_4_qrx6VVDw",
+              "duration": "51s"
+            },
+            {
+              "placeId": "ChIJf8KfdhnGxokRGdg8He50uYE",
+              "duration": "23s"
+            },
+            {
+              "placeId": "ChIJA5kwlxnGxokRjBdbbgbudUA",
+              "duration": "23s"
+            },
+            {
+              "placeId": "ChIJx0nGlhnGxokRdfTJMR7PF1I",
+              "duration": "34s"
+            },
+            {
+              "placeId": "ChIJx0nGlhnGxokRNu-BSOejpPA",
+              "duration": "38s"
+            },
+            {
+              "placeId": "ChIJdTIL6xnGxokRsidPqvI2QO0",
+              "duration": "32s"
+            },
+            {
+              "placeId": "ChIJfd_o6BnGxokRaOOtbWGdXn4",
+              "duration": "39s"
+            },
+            {
+              "placeId": "ChIJ8Uwj4RnGxokRxIchc2mkKGs",
+              "duration": "52s"
+            },
+            {
+              "placeId": "ChIJa29SXBfGxokRQ-j2YJr86T4",
+              "duration": "32s"
+            },
+            {
+              "placeId": "ChIJa29SXBfGxokRvOmpJHcNLzM",
+              "duration": "44s"
+            },
+            {
+              "placeId": "ChIJbaw0QhfGxokRTC1MlQN6fK0",
+              "duration": "7s"
+            },
+            {
+              "placeId": "ChIJt17BaRfGxokRTGt1BuTnQYQ",
+              "duration": "42s"
+            },
+            {
+              "placeId": "ChIJh50gbxfGxokRXtvNujOQadY",
+              "duration": "24s"
+            },
+            {
+              "placeId": "ChIJTw5BcBfGxokRbF4f2wxXLKQ",
+              "duration": "43s"
+            },
+            {
+              "placeId": "ChIJj3mGdxfGxokR8PqJrnowdnk",
+              "duration": "34s"
+            },
+            {
+              "placeId": "ChIJSV_JghfGxokRPLQuJaXbDRk",
+              "duration": "11s"
+            },
+            {
+              "placeId": "ChIJ11w4gxfGxokRDZaJdyHAkq4",
+              "duration": "20s"
+            },
+            {
+              "placeId": "ChIJHeI6hRfGxokR8TRpctkXALY",
+              "duration": "28s"
+            },
+            {
+              "placeId": "ChIJHeI6hRfGxokRpdORQGK01qk",
+              "duration": "8s"
+            },
+            {
+              "placeId": "ChIJ9zWojxfGxokRsxCwG-RGRrs",
+              "duration": "10s"
+            },
+            {
+              "placeId": "ChIJnQ7JjRfGxokRpmGSqSOUmkM",
+              "duration": "32s"
+            },
+            {
+              "placeId": "ChIJ58UI8xfGxokRkkqrIotietQ",
+              "duration": "51s"
+            },
+            {
+              "placeId": "ChIJ58UI8xfGxokRVVYfLwRCvDE",
+              "duration": "5s"
+            },
+            {
+              "placeId": "ChIJY1fI8BfGxokRSspz2-laUGI",
+              "duration": "39s"
+            },
+            {
+              "placeId": "ChIJAd6V_hfGxokRsqvKpRAsdwc",
+              "duration": "47s"
+            },
+            {
+              "placeId": "ChIJu_RiVD3GxokRcp5QSG6I8L8",
+              "duration": "55s"
+            },
+            {
+              "placeId": "ChIJz2O_Uj3GxokRkYMhFYRDrYI",
+              "duration": "15s"
+            },
+            {
+              "placeId": "ChIJ40MVrSLGxokRATZkkfxjx08",
+              "duration": "38s"
+            },
+            {
+              "placeId": "ChIJrRZIsiLGxokRGjnQ81OHNLw",
+              "duration": "42s"
+            },
+            {
+              "placeId": "ChIJw1J-tCLGxokR65Ki02CftXk",
+              "duration": "20s"
+            },
+            {
+              "placeId": "ChIJAb89tSLGxokRRE2Z7_Fu-xU",
+              "duration": "38s"
+            },
+            {
+              "placeId": "ChIJS4ZnzCLGxokRdSlC1MBYnyM",
+              "duration": "68s"
+            },
+            {
+              "placeId": "ChIJnV760yLGxokRVwMdwPm2A5E",
+              "duration": "39s"
+            },
+            {
+              "placeId": "ChIJUYl_KSPGxokR2EWOYeEjcoM",
+              "duration": "62s"
+            },
+            {
+              "placeId": "ChIJB3fOMSPGxokR4PyiCACbNn8",
+              "duration": "38s"
+            },
+            {
+              "placeId": "ChIJU4QtNyPGxokRLccS_SQxlbU",
+              "duration": "20s"
+            },
+            {
+              "placeId": "ChIJp--iNyPGxokR8VbdYVfJPNY",
+              "duration": "14s"
+            },
+            {
+              "placeId": "ChIJwe7hNyPGxokRRedwYQCkC80",
+              "duration": "8s"
+            },
+            {
+              "placeId": "ChIJ-cqoSCPGxokRW8Q2FcwfTmo",
+              "duration": "43s"
+            },
+            {
+              "placeId": "ChIJyRuZWiPGxokRkGFoQkbjj4Y",
+              "duration": "48s"
+            },
+            {
+              "placeId": "ChIJtaSmWSPGxokRVAYYSBbw3Rw",
+              "duration": "20s"
+            },
+            {
+              "placeId": "ChIJ34ENpyTGxokRJrwl7XQ_rYY",
+              "duration": "39s"
+            },
+            {
+              "placeId": "ChIJ5UxuuyTGxokR27YovZNhXQc",
+              "duration": "19s"
+            }
+          ],
+          "distanceMeters": 1541.7947747173214,
+          "travelMode": "WALK",
+          "confidence": 0.9969557601092219
+        },
+        "simplifiedRawPath": {
+          "points": [
+            {
+              "latE7": 399389038,
+              "lngE7": -751669693,
+              "accuracyMeters": 39,
+              "timestamp": "2023-01-01T15:04:21.776Z"
+            },
+            {
+              "latE7": 399399452,
+              "lngE7": -751657791,
+              "accuracyMeters": 27,
+              "timestamp": "2023-01-01T15:07:51.543Z"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 399460081,
+          "longitudeE7": -751655701,
+          "placeId": "ChIJpesdwiTGxokRx9VIfb_2rJE",
+          "address": "320 S Broad St, Philadelphia, PA 19102, USA",
+          "name": "The University of the Arts",
+          "sourceInfo": {
+            "deviceTag": -638744513
+          },
+          "locationConfidence": 28.197416,
+          "calibratedProbability": 17.419615
+        },
+        "duration": {
+          "startTimestamp": "2023-01-01T15:16:51.708Z",
+          "endTimestamp": "2023-01-01T15:52:56.375Z"
+        },
+        "placeConfidence": "LOW_CONFIDENCE",
+        "centerLatE7": 399456578,
+        "centerLngE7": -751653039,
+        "visitConfidence": 89,
+        "otherCandidateLocations": [
+          {
+            "latitudeE7": 399467935,
+            "longitudeE7": -751652970,
+            "placeId": "ChIJfWCzLwnGxokROy6ZBUPSLE4",
+            "address": "300 S Broad St, Philadelphia, PA 19102, USA",
+            "name": "Kimmel Cultural Campus",
+            "locationConfidence": 27.481512,
+            "calibratedProbability": 16.977348
+          },
+          {
+            "latitudeE7": 399453297,
+            "longitudeE7": -751654089,
+            "placeId": "ChIJM-PXpCTGxokRpUVke6QX0mw",
+            "address": "440 S Broad St, Philadelphia, PA 19146, USA",
+            "name": "Symphony House Parking Garage",
+            "locationConfidence": 24.144562,
+            "calibratedProbability": 14.915869
+          },
+          {
+            "latitudeE7": 399453561,
+            "longitudeE7": -751649964,
+            "placeId": "ChIJ5dBqvyTGxokRxHYReiAWLiU",
+            "address": "Philadelphia, PA 19147, USA",
+            "name": "Broad St \u0026 Pine St",
+            "locationConfidence": 8.505499,
+            "calibratedProbability": 5.2544713
+          },
+          {
+            "latitudeE7": 399457225,
+            "longitudeE7": -751652010,
+            "placeId": "ChIJaRVWxyTGxokR4ERv_kEbdvs",
+            "address": "Philadelphia, PA 19102, USA",
+            "name": "Broad St \u0026 Pine St",
+            "locationConfidence": 3.49565,
+            "calibratedProbability": 2.1595197
+          },
+          {
+            "latitudeE7": 399437859,
+            "longitudeE7": -751654817,
+            "placeId": "ChIJ0VscWiPGxokRwSI-7dZ91B8",
+            "address": "Philadelphia, PA 19146, USA",
+            "name": "Lombard-South",
+            "locationConfidence": 2.9937346,
+            "calibratedProbability": 1.8494498
+          },
+          {
+            "latitudeE7": 399448916,
+            "longitudeE7": -751654997,
+            "placeId": "ChIJDQGHpSTGxokRoQB9wMRy-Rk",
+            "address": "480 S Broad St, Philadelphia, PA 19146, USA",
+            "name": "Suzanne Roberts Theatre",
+            "locationConfidence": 1.3090719,
+            "calibratedProbability": 0.80870986
+          },
+          {
+            "latitudeE7": 399452737,
+            "longitudeE7": -751653646,
+            "placeId": "ChIJM-PXpCTGxokRnfdfb1MUmlA",
+            "address": "440 S Broad St, Philadelphia, PA 19146, USA",
+            "name": "iParkit",
+            "locationConfidence": 1.1178656,
+            "calibratedProbability": 0.69058764
+          },
+          {
+            "latitudeE7": 399447020,
+            "longitudeE7": -751651380,
+            "placeId": "ChIJr_6mpiTGxokReZoHgxHm3u8",
+            "address": "Philadelphia, PA 19147, USA",
+            "name": "Lombard St \u0026 Broad St",
+            "locationConfidence": 0.58531195,
+            "calibratedProbability": 0.36159018
+          },
+          {
+            "latitudeE7": 399452738,
+            "longitudeE7": -751649188,
+            "placeId": "ChIJUQ9svyTGxokRD20u8ItZ1HI",
+            "address": "401 S Broad St, Philadelphia, PA 19147, USA",
+            "name": "Gershman Y",
+            "locationConfidence": 0.4753618,
+            "calibratedProbability": 0.2936659
+          }
+        ],
+        "editConfirmationStatus": "NOT_CONFIRMED",
+        "locationConfidence": 21,
+        "placeVisitType": "SINGLE_PLACE",
+        "placeVisitImportance": "MAIN"
+      }
+    }
+  ]
+}
