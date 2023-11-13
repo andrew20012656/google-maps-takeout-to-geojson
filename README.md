@@ -3,6 +3,8 @@
 A tool to process Google Maps Takeout data to GeoJSON format, and the transformed data can be used in [Kepler.gl](https://kepler.gl) to visualize trips.
 
 - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
 - [Usage](#usage)
 - [Sample Input Data](#sample-input-data)
 - [Relevant Documentation](#relevant-documentations)
@@ -10,6 +12,9 @@ A tool to process Google Maps Takeout data to GeoJSON format, and the transforme
 
 ## Getting Started
 
+### Prerequisites
+You will need your personal Google Maps Platform API Key in order to use the tools. For instructions on how to acquire Google Maps Platform API Key, please refer to [link](https://developers.google.com/maps/documentation/javascript/get-api-key).
+### Installation
 - `pip install -r requirements.txt`
 
 ## Usage
@@ -25,6 +30,8 @@ For sample input data, please refer to `data` folder. The corresponding output f
 ## Relevant Documentations
 1. [Google Maps Platform: Get the Address for a Place ID](https://developers.google.com/maps/documentation/javascript/examples/geocoding-place-id)
 2. [Google Maps Platform: Geocoding API](https://developers.google.com/maps/documentation/geocoding/)
+3. [Google Maps Platform: Use API Keys](https://developers.google.com/maps/documentation/javascript/get-api-key)
+
 ## Acknowledgments
 
 I would like to acknowledge and thank the following individuals and projects for their inspiration:
