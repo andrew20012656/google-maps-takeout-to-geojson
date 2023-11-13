@@ -6,7 +6,7 @@ import googlemaps
 import datetime
 from datetime import timedelta
 from config import API_KEY
-import pprint
+from tqdm import tqdm
 
 # https://developers.google.com/maps/documentation/javascript/examples/geocoding-place-id
 
@@ -157,7 +157,7 @@ def features_and_properties(maps_json):
         else place_visit(x["placeVisit"])
         if "placeVisit" in x
         else (None, None)
-        for x in maps_json["timelineObjects"]
+        for x in tqdm(maps_json["timelineObjects"], desc="Processing")
     ]
 
 
