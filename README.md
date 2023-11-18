@@ -23,6 +23,8 @@ You will need your personal Google Maps Platform API Key in order to use the too
     - `python waypoints_to_geojson.py <path-to-source-data> <path-to-output-file>`
 2. To map the `roadSegment` in `activitySegment` attribute in Google Takeout data
     - `python road_segment_to_geojson.py <path-to-source-data> <path-to-output-file>`
+3. To visualize all the 'placeVisit' points
+    - `python to_heapmap.py <path-to-source-data-directory> <path-to-output-file>`
 
 ## Sample Input Data
 For sample input data, please refer to `data` folder. The corresponding output file in GeoJSON format named `output1.json` can be found in `output` folder.
