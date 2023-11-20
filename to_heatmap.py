@@ -1,33 +1,10 @@
 import sys
 import json
-import requests
-from geojson import LineString, Point
-import googlemaps
-import datetime
-from datetime import timedelta
-from config import API_KEY
+from geojson import Point
 from tqdm import tqdm
 import os
-import pprint
-
-
-def timestamp_conversion(time_str: str):
-    """
-    Return a POSIX timestamp 
-
-    Parameters:
-    - time_str (str): a string representing a timestamp following ISO 8601 Standard
-    """
-    date_formats = ["%Y-%m-%dT%H:%M:%S.%fZ", "%Y-%m-%dT%H:%M:%SZ"]
-    start_datetime = None
-    for date_format in date_formats:
-        try:
-            start_datetime = datetime.datetime.strptime(time_str, date_format)
-            break
-        except ValueError:
-            continue
-
-    return start_datetime.timestamp()
+from from_instagram import *
+from common_utils import *
 
 
 def place_visit(visit):
@@ -51,7 +28,7 @@ def place_visit(visit):
         properties["latitude"] = visit["location"]["latitudeE7"] / 10e6
     if "duration" in visit:
         if "startTimestamp" in visit["duration"]:
-            properties["timestamp"] = timestamp_conversion(
+            properties["timestamp"] = convert_to_timestamp(
                 visit["duration"]["startTimestamp"])
 
     return (
@@ -92,7 +69,16 @@ if __name__ == "__main__":
 
     subfolders = [f for f in os.listdir(
         input_dir) if os.path.isdir(os.path.join(input_dir, f))]
+
     places_visited = []
+
+    path_to_stories_data = "data/Instagram-Jose/content/stories.json"
+    stories_info = extract_stories_with_exif_data(path_to_stories_data)
+    points = create_story_point(stories_info)
+
+    for point in points:
+        places_visited.append(point)
+
     for subfolder in subfolders:
         subfolder_path = os.path.join(input_dir, subfolder)
         print(f"Processing subfolder: {subfolder_path}")
@@ -106,11 +92,9 @@ if __name__ == "__main__":
                         print(f"Error parsing JSON in file: {file_path}")
 
                 for timeline_object in maps_json["timelineObjects"]:
-                    # places_visited.append(extract_long_lat(timeline_object))
                     if "placeVisit" in timeline_object:
                         places_visited.append(place_visit(
                             timeline_object["placeVisit"]))
 
     output_geojson = make_geojson(places_visited)
     json.dump(output_geojson, open(output_dir, "w"), indent=2)
-    # json.dump(places_visited, open(output_dir, "w"), indent=2)
